@@ -8,6 +8,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: "Roboto", sans-serif;
+    background-color: #00000005;
 }
    
 .continer{
@@ -84,9 +85,10 @@ nav a{
 }
  #cart{
  
-    background-color: aliceblue;
+    background-color: white;
     max-width: 840px;
     padding-bottom: 70px;
+    border-radius: 5px;
 }
 
 .korzina{
@@ -133,9 +135,8 @@ nav a{
     width: 70px;
     padding: 7px 10px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid gray;
 }
-
 
 .udalit div{
     display: flex;
@@ -160,6 +161,7 @@ nav a{
     font-size: 16px;
     color: #161C24;
     margin-left: 158px;
+    font-weight: 400;
 }
 
 h4{

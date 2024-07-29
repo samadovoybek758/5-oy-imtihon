@@ -5,20 +5,18 @@ const filter1 = document.querySelector('#filter_1');
 const maxPrice = document.getElementById('maxPrice');
 const minPrice = document.getElementById('minPrice');
 const btnPrice = document.getElementById('btnPrice');
+const loader = document.getElementById('loader');
 const goldensoft1 = document.getElementById('GoldenSoft1')
 
 
 
 
 
-// fetch("https://cars-pagination.onrender.com/products?")
-
-
 
 
 document.addEventListener('DOMContentLoaded',function (params) {
     getDataFromApi("https://cars-pagination.onrender.com/products?")
-    // .then( res => res.json())
+
     .then(data => {
         const first10Cards = data.slice(1, 13);
         first10Cards && first10Cards.forEach(products => {
@@ -45,6 +43,9 @@ document.addEventListener('DOMContentLoaded',function (params) {
     .catch(err =>{
         console.log(err);
     })
+    .finally(function () {
+        loader.style.display = "none"
+    })
 })
 
 
@@ -54,9 +55,8 @@ document.addEventListener('DOMContentLoaded',function (params) {
 
 
 filter1 && filter1.addEventListener("change",function () {
-    // fetch(`https://cars-pagination.onrender.com/products/category?category=${this.value}`)
     getDataFromApi(`https://cars-pagination.onrender.com/products/category?category=${this.value}`)
-    // .then(res => res.json())
+
     .then(data => {
         const filterElement = data.slice(0, 12);
         goldensoft.innerHTML = ""
@@ -85,9 +85,9 @@ filter1 && filter1.addEventListener("change",function () {
 btnPrice && btnPrice.addEventListener('click',function (params) {
     params.preventDefault()
 
-    fetch(`https://cars-pagination.onrender.com/products/filter?minPrice=${minPrice.value}&maxPrice=${maxPrice.value}`)
-    .then(res => res.json())
-    // getDataFromApi(`https://cars-pagination.onrender.com/products/filter?minPrice=${minPrice.value}&maxPrice=${maxPrice.value}`)
+    // fetch(`https://cars-pagination.onrender.com/products/filter?minPrice=${minPrice.value}&maxPrice=${maxPrice.value}`)
+    // .then(res => res.json())
+    getDataFromApi(`https://cars-pagination.onrender.com/products/filter?minPrice=${minPrice.value}&maxPrice=${maxPrice.value}`)
     .then(data1 => {
         const filter2Element = data1.slice(0, 12);
         goldensoft.innerHTML = ""
@@ -110,5 +110,6 @@ btnPrice && btnPrice.addEventListener('click',function (params) {
     .catch(err =>{
         console.log(err);
     })
+    
 })
 
