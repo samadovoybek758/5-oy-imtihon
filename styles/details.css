@@ -148,4 +148,6 @@ nav a{
     margin-top: 16px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+
 }

@@ -59,6 +59,7 @@ nav a{
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
+    cursor: pointer;
     line-height: 23.87px;
     font-family: "Roboto", sans-serif;
 }
@@ -190,6 +191,7 @@ main h3{
     font-family: "Roboto", sans-serif;
     margin-left: 500px;
     border-radius: 5px;
+    cursor: pointer;
 }
 .chapCard{
     border: 1px solid #C4CDD5;
@@ -284,13 +286,14 @@ main h3{
     display: flex;
     align-items: start;
     justify-content: space-between;
-    gap: 120px;
+    gap: 7px;
     left: 5px;
 }
-.overlay1 p{
+.overlay1 .tag{
     margin-left: 10px;
-    color: black;
-    font-size: 40px;
+    color: #454F5B;
+    font-size: 18px;
+    width: 200px;
 }
 .stars{
     display: flex;

@@ -24,7 +24,7 @@ function creatCard(products) {
            <img class = "img1" src="${products.image}" alt="">
             <div class="overlay1">
                  <div>
-                    <p class="tag">${products.isExist}</p>
+                    <p class="tag">${products.isExist ? 'В наличии' : 'Нет в наличии'}</p>
                     <img src="./images/podarok.png" alt="">
                 </div>
                 <img src="./images/sale.png" alt="">
