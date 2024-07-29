@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+   
+.continer{
+    max-width: 1440px;
+   
+}
+.engTepasi{
+    padding: 9px 100px 9px 452px;
+    background-color: #454F5B;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 12%;
+}
+.Обратный{
+    margin-left: 197px;
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    padding: 20px 100px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+nav>img{
+    margin-right: 101.5px;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+nav a{
+    color: #161C24;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 23.87px;
+}
+.Каталог{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.right-1{
+    display: flex;
+    gap: 30px;
+    margin-left: 283.1px;
+}
+.calNumber{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.like{
+    display:inline;
+    margin-right: 24px;
+}
+.tagchiziq{
+    width: 1440px;
+    height: 1px;
+    background-color: #C4CDD5;
+}
+
+#wrapper{
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background-color: #161C24; */
+    max-width: 836px;
+}
+ #cart{
+ 
+    background-color: aliceblue;
+    max-width: 840px;
+    padding-bottom: 70px;
+}
+
+.korzina{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 40px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.korzina p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #161C24;
+}
+.korzina img{
+    width: 20px;
+    height: 20px;
+}
+.cartName{
+  max-width: 400px;
+  display: flex; 
+  flex-direction: column;
+  gap: 5px;
+  font-family: "Roboto", sans-serif;
+}
+.cartNameSpan{
+    color: #4295E4;
+    text-decoration: underline;
+}
+
+.cardMin{
+    display: flex;
+    padding: 24px 40px 32px 40px;
+    justify-content: space-between;
+}
+.cardMin img{
+    width: 136px;
+    height: 120px;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+#select{
+    margin-top: 40px;
+    width: 70px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+.udalit div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 68px;
+    margin-left: 90px;
+}
+.deletBtn{
+    cursor: pointer;
+}
+.udalit img{
+    width: 24px;
+    height: 24px;
+}
+.udalit span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4295E4;
+}
+.udalit p{
+    font-size: 16px;
+    color: #161C24;
+    margin-left: 158px;
+}
+
+h4{
+    margin-left: 40px;
+    margin-bottom: 8px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+}
+h4 span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #161C24;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 291px;
+    margin: 0px 40px 0 40px;
+}
+#btnBlue{
+    padding: 9px 64px;
+    background-color: #4295E4;
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+    border: none;
+    cursor: pointer;
+}
+#btnWhite{
+    padding: 10px 24px;
+    color: #161C24;
+    background-color: white;
+    font-size: 16px;
+    line-height: 26px;
+    border: 1px solid #ADD7FF;
+    cursor: pointer;
+} 

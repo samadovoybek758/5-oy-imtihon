@@ -1,0 +1,553 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+
+}
+.continer{
+    max-width: 1440px;
+}
+/* header qismi */
+
+
+/* eng tepa qismi */
+header{
+    max-width: 1440px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+.engTepasi{
+    padding: 9px 100px 9px 452px;
+    background-color: #454F5B;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 12%;
+}
+.Обратный{   
+    margin-left: 197px;
+    text-decoration: underline;
+}
+
+
+/* navbar qismi */
+nav{
+    display: flex;
+    padding: 20px 100px;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+nav>img{
+    margin-right: 101.5px;
+}
+nav ul{
+    display: flex;
+    gap: 32px;
+    list-style-type: none;
+}
+nav a{
+    color: #161C24;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 23.87px;
+    font-family: "Roboto", sans-serif;
+}
+.Каталог{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.right-1{
+    display: flex;
+    gap: 30px;
+    margin-left: 283.1px;
+}
+.calNumber{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.like{
+    display:inline;
+    margin-right: 24px;
+}
+.tagchiziq{
+    width: 1440px;
+    height: 1px;
+    background-color: #C4CDD5;
+}
+/*  main qismi */
+main{
+     max-width: 1245px;
+    margin: 144px 95px 100px 100px ;
+  
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Главная{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    color: #141414;
+    font-family: "Roboto", sans-serif;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+.Каталог2{
+    display: inline-block;
+    opacity: 60%;
+}
+main h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 42px;
+    font-family: "Roboto", sans-serif;
+}
+.Каталог3{
+    opacity: 60%;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* chap taraf */
+.кодовые{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+}
+.Электронные{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 31px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Roboto", sans-serif;
+    width: 300px;
+    font-weight: 400;
+}
+.Сбросить{
+    border: 1px solid #ADD7FF;
+    padding: 7px 72px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-family: "Roboto", sans-serif;
+    width: 288px;
+}
+.price{
+    padding: 13px;
+    width: 116px;
+    border-radius: 5px;
+    
+}
+#maxPrice{
+    margin-left: 5px;
+}
+#btnPrice{
+    padding:5px 98px;
+    font-size: 16px;
+    background-color: gray;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#btnPrice:hover{
+    background-color: rgb(63, 61, 61);
+    color: rgb(177, 172, 172);
+}
+.Популярности{
+    gap: 16px ;
+    border: 1px solid #C4CDD5;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 7px 16px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-left: 500px;
+    border-radius: 5px;
+}
+.chapCard{
+    border: 1px solid #C4CDD5;
+    padding: 24px;
+    width: 288px;
+    height: 500px;
+}
+.chapCard h5{
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "Roboto", sans-serif;;
+    font-weight: 600;
+    color: #161C24;
+    margin-bottom: 24px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom:1px solid #EDEDED;
+    padding-bottom: 16px;
+    margin-top: 16px;
+}
+.flexMax{
+    flex-direction: column;
+}
+.minflex{
+    display: flex;
+
+}
+
+.flex p{
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.Цена{
+    margin-bottom: 16px;
+    border: none;
+}
+.cost{
+    border: 1px solid #4295E4;
+    padding: 10px 35px 10px 26px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+    font-weight: 400;
+    /* margin-bottom: 16px; */
+}
+.cost2{
+    border: 1px solid #EAEAEA;
+    padding: 10px 29px 10px 30px;
+}
+
+/* ung taraf */
+
+.card{
+    /* box-shadow: 1px 1px 1px #EAEAEA; */
+    background-color: #fffefe;
+    width: 288px;
+    height: 453px;
+    cursor: pointer;
+    border: 1PX SOLID gray;
+    border-radius: 5px;
+    box-shadow: 10px 10px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.img1{
+    width: 100%;
+    height: 320px;
+}
+.cardOsti{
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.GoldenSoft{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.overlay{
+    position: relative;
+}
+.overlay1{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 120px;
+    left: 5px;
+}
+.overlay1 p{
+    margin-left: 10px;
+    color: black;
+    font-size: 40px;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 6px;
+
+}
+.card p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #454F5B;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 10px;
+}
+.cost-3{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    line-height: 23.87px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #161C24;
+}
+.cost-4{
+    font-size: 18;
+    line-height: 21.48px;
+    font-weight: 300;
+    color: #454F5B;
+    font-family: "Roboto", sans-serif;
+    text-decoration:line-through;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.numbers{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 220px;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+.numbers span{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+    width: 40px;
+    font-family: "Roboto", sans-serif;
+    height: 40px;
+    padding-top: 5px;
+}
+.active{
+    background-color: #4295E4;
+    border-radius: 2px;
+    text-align: center;
+   
+}
+
+
+/* main-2 */
+.main-2{
+    max-width: 1242px;
+    margin: 100px 99px 96px 99px;
+}
+.main-2__card h1{
+    font-size: 44px;
+    line-height: 64px;
+    font-weight: 600;
+}
+.недавно{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+.main-2__img{
+    display: flex;
+    gap: 40px;
+}
+.GoldenSoft__card{
+    height: 426px;
+}
+#GoldenSoft1{
+    display: flex;
+    gap: 30px;
+}
+
+
+/* footer,section-4 */
+.Eget{
+    margin: 0 100px 100px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1240px;
+}
+.Eget__h3{
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 600;
+    color: #161C24;
+    margin-top: 81px;
+    margin-bottom: 24px;
+}
+.Eget__p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #454F5B;
+    width: 525px;
+    height: 96px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.дверь{
+    display: flex;
+    gap: 32px;
+}
+.Межкомнатую{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+.ptichka {
+    width: 17px;
+    height: 18px;
+    background-color: #4295E4;
+    padding:0px 5px 10px 5px ;
+}
+.main-2__span{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #161C24;
+    opacity: 90%;
+}
+
+
+
+
+
+
+/* section-6 */
+.footer__tepa{
+   padding-top: 64px;
+    background-color: #F2F8FF;
+    padding-bottom: 56px;
+}
+.перезвоним h1{
+    font-size: 44px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #161C24;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.перезвоним p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #454F5B;
+    margin-left: 461px;
+    text-align: center;
+    max-width: 518px;
+    margin-bottom: 24px;
+}
+.перезвоним__input{
+    max-width: 748px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    height: 50px;
+    margin-left: 346px;
+}
+.перезвоним__input input{
+    padding: 17.5px 146.5px 17.5px 16px;
+    background-color: rgba(22, 28, 36, 0.04);
+    border: none;
+}
+.перезвоним__input button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(66, 149, 228, 1);
+    padding: 12px 70px 12px 71px;
+    border: none;
+}
+.перезвоним__input input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(69, 79, 91, 1);
+}
+
+
+.footer__osti{
+    background-color: rgba(13, 36, 54, 1);
+}
+.footer__osti2{
+    max-width: 1440px;
+    padding: 50px 81px 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+   
+}
+.ijtimoiy{
+    margin-top: 144px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    
+}
+.centure{
+    display: flex;
+    gap: 97px;
+    color: white;
+}
+.centure ul{
+    list-style-type: none;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.centure ul li:first-child{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.centure ul li{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    max-width: 182px;
+}
+.kichik{
+    line-height: 16.71px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #C4CDD5;
+}
+.k{
+    margin-top: 8px;
+}
+.tagchiziq2{
+    width: 1440px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.reserved{
+    color: white;
+    font-size: 14px;
+    line-height: 16.71px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    margin-left: 606px;
+    opacity: 60%;
+}
